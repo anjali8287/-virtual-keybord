@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <marquee behavior="" direction=""><h2>Here's the virtual keyboard</h2></marquee>
+        </div>
+        <div class="textarea">
+            <textarea name="tex" id="tarea" cols="30" rows="10" class="textArea"></textarea>
+        </div>
+
+        <!-- <button class="startWriting" id="Sw">Start Writing</button> -->
+
+        <div class="keyboard slide" id="kbSlide">
+            <div class="kb" id="Kb">
+                <div class="row1" id="row">
+                    <span class="btn" id="first">1</span>
+                    <span class="btn" id="second">2</span>
+                    <span class="btn" id="third">3</span>
+                    <span class="btn" id="fourth">4</span>
+                    <span class="btn" id="five">5</span>
+                    <span class="btn" id="six">6</span>
+                    <span class="btn" id="seven">7</span>
+                    <span class="btn" id="eight">8</span>
+                    <span class="btn" id="nine">9</span>
+                    <span class="btn" id="zero">0</span>
+                    <span class="reverse" id="Reverse"><i class="fas fa-backspace"></i></span>
+                </div>
+                <div class="row2" id="row">
+                    <span class="btn" id="q">q</span>
+                    <span class="btn" id="w">w</span>
+                    <span class="btn" id="e">e</span>
+                    <span class="btn" id="r">r</span>
+                    <span class="btn" id="t">t</span>
+                    <span class="btn" id="y">y</span>
+                    <span class="btn" id="u">u</span>
+                    <span class="btn" id="i">i</span>
+                    <span class="btn" id="o">o</span>
+                    <span class="btn" id="p">p</span>
+                </div>
+                <div class="row3" id="row">
+                    <span class="capslock" id="capsLock"><i class="fa-solid fa-arrow-up-from-bracket "></i></span>
+                    <span class="btn" id="a">a</span>
+                    <span class="btn" id="s">s</span>
+                    <span class="btn" id="d">d</span>
+                    <span class="btn" id="f">f</span>
+                    <span class="btn" id="g">g</span>
+                    <span class="btn" id="h">h</span>
+                    <span class="btn" id="j">j</span>
+                    <span class="btn" id="k">k</span>
+                    <span class="btn" id="l">l</span>
+                    <span class="newline"><img src="newline.png" alt=""></span>
+                </div>
+                <div class="row4" id="row">
+                    <span class="correct"><i class="fa-regular fa-circle-check"></i></span>
+                    <span class="btn" id="z">z</span>
+                    <span class="btn" id="x">x</span>
+                    <span class="btn" id="c">c</span>
+                    <span class="btn" id="v">v</span>
+                    <span class="btn" id="b">b</span>
+                    <span class="btn" id="n">n</span>
+                    <span class="btn" id="m">m</span>
+                    <span class="comma">,</span>
+                    <span class="fullstop">.</span>
+                    <span class="questionMark">?</span>
+                </div>
+                <div class="row5" id="row">
+                    <button class="spaceBar"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
